@@ -1,0 +1,268 @@
+.top-navbar{
+    background-color: #0C4B35;
+}
+
+
+  /* -----------------------------------------------------------cards------------------------------------------------------------------*/
+
+  
+  /* @media screen and (min-width: 992px) and (max-width: 1200px){
+    .ser-box , .wor-box , .staff-box, .staff-shutter{
+        width: 230px;
+    }
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1299px){
+    .ser-box, .wor-box , .staff-box, .staff-shutter{
+        width: 260px;;
+    }
+  }
+  @media screen and (min-width: 1300px) and (max-width: 1399px){
+    .ser-box , .wor-box , .staff-box, .staff-shutter{
+        width: 265px !important;
+    }
+  } */
+
+
+  @media screen and (min-width: 1650px){
+    .stem{
+        display: block;
+    }
+  }
+
+
+   /* ------------------------------------for container width on 1920 screen resoluition according to design------------------------------------*/
+   @media (min-width: 1900px){
+    .container.mwidth{
+        max-width: 1410px ;       
+    } 
+    .terms .end-list{
+        display: flex;
+        justify-content: unset;
+    }
+    .terms .end-list li{
+        margin: 0px 15px 0px 15px ;
+    }
+    .shut-text{
+    padding: 64px 0px 64px 0px;
+    }
+}
+  /* -----------------------------------------------------------quieries by sir------------------------------------------------------------------*/
+  
+  
+  
+  
+  @media screen and (min-width: 320px) and (max-width: 575.98px) {
+    .background .text{
+        width: 100%;
+        text-align: justify;
+    }
+    .ser-text{
+        width: 100%;
+    }
+    .ser-heading{
+        text-align: start;
+    }
+    .ser-text p{
+        text-align: justify;
+    }
+    .wor-text{
+        width: 100%;
+    }
+    .wor-heading{
+        text-align: start;
+    }
+    .wor-text p{
+        text-align: justify;
+    }
+    .cta{
+        display: flex;
+        align-items: center;
+    }
+    .boxes-host{
+        padding-bottom: 190px;
+    }
+    .overlay{
+        bottom: -180px;
+    }
+    .overlay .heading{
+        margin-left: 7px;
+    }
+    .get{
+        margin-right: 30px;
+    }
+    .background p1{
+        font-size: 55px;
+    }
+    .footer{
+        padding-top: 100px;
+    }
+    .icon-list{
+        padding-left: unset;
+        justify-content: center;
+    }
+    .endbar{
+        padding-bottom:220px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .terms .end-list{
+        display: unset; 
+        margin-top: 0px;
+        list-style: none;
+    }
+    .copy-right{
+        text-align: start;
+    }
+    .copy-right p{
+    margin-bottom: 0px !important;
+    }
+    .terms{
+        text-align: start;
+    }
+  }
+  @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    .background .text{
+        width: 100%;
+        text-align: justify;
+    }
+    .ser-text{
+        width: 100%;
+        text-align: justify;
+    }
+    .wor-text{
+        width: 100%;
+        text-align: justify;
+    }
+    .cta{
+        display: flex;
+        align-items: center;
+    }
+    .boxes-host{
+        padding-bottom: 140px;
+    }
+    .footer{
+        padding-top: 30px;
+    }
+    .overlay{
+        bottom: -110px;
+    }
+    .overlay .heading{
+        margin-right: 10px;
+    }
+    .get{
+        margin-right: 30px;
+    }
+    input[type = "email"]{
+        width: 77%;
+    }
+    .icon-list{
+        padding-left: unset;
+        justify-content: center;
+    }
+    .terms .end-list{
+        justify-content: space-between;
+        margin-top: 0px;
+        list-style: none;
+    }
+    .copy-right{
+        text-align: start;
+    }
+    .copy-right p{
+    margin-bottom: 0px !important;
+    }
+    .terms{
+        text-align: start;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .cta{
+        display: flex;
+        align-items: center;
+    }
+    .Dis-more{
+        padding: 12px 32px;
+        background-color: #00730C;
+        border-radius: 5px;
+        border: none;
+        font-family: var(--nunito-700);
+        font-weight: 700;
+        font-size: 13.5px;
+        color: white;
+    }
+    .boxes-host{
+        padding-bottom: 100px;
+    }
+    .overlay{
+        bottom: -70px;
+    }
+    .overlay .heading{
+        margin-right: 10px;
+    }
+    .get{
+        margin-right: 30px;
+    }
+    input[type = "email"]{
+        width: 77%;
+    }   
+    .terms .end-list{
+        justify-content: space-between;
+        margin-top: 0px;
+        list-style: none;
+    }
+    .copy-right{
+        text-align: start;
+    }
+    .copy-right p{
+    margin-bottom: 0px !important;
+    }
+    .terms{
+        text-align: start;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .boxes-host{
+        padding-bottom: 100px;
+    }
+    .overlay{
+        bottom: -70px;
+    }
+    .frm{
+        display: flex;
+    }
+    input[type = "email"]{
+    }
+    .subscribe{
+        margin-top: 30px;
+    }
+    #useful{
+        margin-right: -10px !important;
+    }
+    .endbar{
+        height: 70px;
+        display: flex;
+        justify-content: start;
+    }
+    .end-starting{
+        float:  none;
+        display: flex;
+        justify-content: start;
+    }  
+    .terms .end-list{
+        justify-content: space-between;
+        margin-top: 0px;
+        list-style: none;
+    }
+    .copy-right{
+        text-align: start;
+    }
+    .copy-right p{
+    margin-bottom: 0px !important;
+    }
+    .terms{
+        text-align: start;
+    }      
+  }
+ 
+  
