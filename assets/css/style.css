@@ -189,7 +189,7 @@
     text-decoration: none;
     color: black;
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     display: flex;
 }
@@ -213,7 +213,7 @@
     padding-left: 0px !important;
 }
 #a1{
-    width: 80px;
+    width: 120px;
 }
 .d-1:hover .mini-sub{
     display: block;
