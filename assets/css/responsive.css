@@ -3,34 +3,13 @@
 }
 
 
-  /* -----------------------------------------------------------cards------------------------------------------------------------------*/
-
-  
-  /* @media screen and (min-width: 992px) and (max-width: 1200px){
-    .ser-box , .wor-box , .staff-box, .staff-shutter{
-        width: 230px;
-    }
-  }
-  @media screen and (min-width: 1200px) and (max-width: 1299px){
-    .ser-box, .wor-box , .staff-box, .staff-shutter{
-        width: 260px;;
-    }
-  }
-  @media screen and (min-width: 1300px) and (max-width: 1399px){
-    .ser-box , .wor-box , .staff-box, .staff-shutter{
-        width: 265px !important;
-    }
-  } */
-
-
+  /* -----------------------------------cards------------------------------------------*/
   @media screen and (min-width: 1650px){
     .stem{
         display: block;
     }
   }
-
-
-   /* ------------------------------------for container width on 1920 screen resoluition according to design------------------------------------*/
+   /* -----------------------for container width on 1920 screen resoluition according to design---------------------------*/
    @media (min-width: 1900px){
     .container.mwidth{
         max-width: 1410px ;       
@@ -46,11 +25,7 @@
     padding: 64px 0px 64px 0px;
     }
 }
-  /* -----------------------------------------------------------quieries by sir------------------------------------------------------------------*/
-  
-  
-  
-  
+  /* --------------------------------------------quieries by sir--------------------------------------------------*/  
   @media screen and (min-width: 320px) and (max-width: 575.98px) {
     .background .text{
         width: 100%;

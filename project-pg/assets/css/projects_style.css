@@ -173,6 +173,62 @@ li:hover .sub{
 .toggle{
     margin-top: -40px;
 }
+/*-------------------------------------------------------miniscreen navbar-------------------------------------------------------*/
+.hidden{
+    display: none;
+}
+ .d-men ul{
+    padding-left: 0px !important;
+ }
+.d-1{
+    list-style: none;
+}
+.d-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito';
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+}
+.d-1 a:hover{
+    color: black;
+}
+.d-1 i{
+    margin-left: auto;
+    margin-top: 2px;
+}
+.d-1:hover .d-1 i{
+    color: white;
+} 
+ /*-----------------------------------miniscreen dropdown nav--------------------------------------*/
+.mini-sub{
+ display: none;
+ border-radius: 2px;
+}
+.mini-list-2{
+    list-style: none;
+    padding-left: 0px !important;
+}
+#a1{
+    width: 80px;
+}
+.d-1:hover .mini-sub{
+    display: block;
+    background-color: var(--dark-green);
+    padding: 8px;
+}
+.d-1:hover .mini-sub a{
+    color: white;
+}
+.mini-list-2 li:hover{
+    background-color: black;
+    padding-left: 20px;
+    border-radius: 2px;
+}
+.mini-list-2 li:hover a{
+    color: var(--dark-green);
+}
 /*--------------------------------------------------------------------------background-----------------------------------------------------*/
 .background{
     height: auto;
