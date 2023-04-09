@@ -177,7 +177,7 @@
  }
 /*-------------------------------------------------------miniscreen navbar-------------------------------------------------------*/
 .hidden{
-    /* display: none; */
+    display: none;
 }
  .d-men ul{
     padding-left: 0px !important;
