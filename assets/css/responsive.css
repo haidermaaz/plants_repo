@@ -27,77 +27,7 @@
 }
   /* --------------------------------------------quieries by sir--------------------------------------------------*/  
   @media screen and (min-width: 320px) and (max-width: 575.98px) {
-    .background .text{
-        width: 100%;
-        text-align: justify;
-    }
-    .ser-text{
-        width: 100%;
-    }
-    .ser-heading{
-        text-align: start;
-    }
-    .ser-text p{
-        text-align: justify;
-    }
-    .wor-text{
-        width: 100%;
-    }
-    .wor-heading{
-        text-align: start;
-    }
-    .wor-text p{
-        text-align: justify;
-    }
-    .cta{
-        display: flex;
-        align-items: center;
-    }
-    .boxes-host{
-        padding-bottom: 190px;
-    }
-    .overlay{
-        bottom: -180px;
-    }
-    .overlay .heading{
-        margin-left: 7px;
-    }
-    .get{
-        margin-right: 30px;
-    }
-    .background p1{
-        font-size: 55px;
-    }
-    .footer{
-        padding-top: 100px;
-    }
-    .icon-list{
-        padding-left: unset;
-        justify-content: center;
-    }
-    .endbar{
-        padding-bottom:220px;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .terms .end-list{
-        display: unset; 
-        margin-top: 0px;
-        list-style: none;
-    }
-    .copy-right{
-        text-align: start;
-    }
-    .copy-right p{
-    margin-bottom: 0px !important;
-    }
-    .terms{
-        text-align: start;
-    }
-  }
-  @media screen and (min-width: 576px) and (max-width: 767.98px) {
+                                                                                                   
     .background .text{
         width: 100%;
         text-align: justify;
@@ -150,9 +80,7 @@
     .terms{
         text-align: start;
     }
-  }
-  @media screen and (min-width: 768px) and (max-width: 1023.98px) {
-    .cta{
+ .cta{
         display: flex;
         align-items: center;
     }

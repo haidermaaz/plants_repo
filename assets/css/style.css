@@ -1,63 +1,74 @@
-*{
-    margin: 0px ;
+* {
+    margin: 0px;
     padding: 0px;
 }
-:root{
+
+:root {
     --dark-green: #0C4B35;
     --light-green: #00730C;
-    --grey: #C4C4C4;   
-    --dark-grey:#676767;
+    --grey: #C4C4C4;
+    --dark-grey: #676767;
     --shutter-color: #00000045;
-    --sea-green:#D9F1E0;
+    --sea-green: #D9F1E0;
     --nunito-400: 'Nunito', sans-serif;
     --nunito-700: 'Nunito', sans-serif;
     --poppis-400: 'Poppins', sans-serif;
-    --nunito-600:   'Nunito', sans-serif;
-    --nunito-800:  'Nunito', sans-serif;
-    
-};
+    --nunito-600: 'Nunito', sans-serif;
+    --nunito-800: 'Nunito', sans-serif;
+
+}
+
+;
+
 /*!-----------------------------------------------------topbar----------------------------------------------------------------*/
 .top-navbar {
     background-color: var(--dark-green);
 }
-.topbar-content{
+
+.topbar-content {
     background-color: var(--dark-green);
     color: white;
     padding: 14px 0px 14px 0px;
 }
-.language{
+
+.language {
     position: relative;
     width: auto;
 }
-.language a{
+
+.language a {
     color: white;
     text-decoration: none;
     font: Poppins;
     font-weight: 400;
     font-size: 14px;
 }
-.language i{
+
+.language i {
     margin-left: 4px;
 }
-.list-3{
-    margin: 20px; 
+
+.list-3 {
+    margin: 20px;
     list-style: none;
     color: white;
 }
 
-.list-3 li{
+.list-3 li {
     font: Poppins;
     font-weight: 400;
     font-size: 14px;
-    width:100px;
+    width: 100px;
     padding: 10px;
     margin-left: -30px !important;
 }
-.child{
+
+.child {
     display: none;
     width: 140px;
 }
-.language:hover .child{
+
+.language:hover .child {
     display: block;
     position: absolute;
     top: 20px;
@@ -69,123 +80,153 @@
     font-weight: 700;
     font-size: 16px
 }
-.language:hover a{
+
+.language:hover a {
     color: white;
 }
+
 .child li:hover {
     background-color: white;
     color: black;
 }
- 
+
 /*--------------------------------------------------------------------navbar---------------------------------------------------------------*/
 
-.list-1 ul{
+.list-1 ul {
     list-style: none;
- }
- .items{
-     padding-right: 27px ;
- }
- .list-1{
-     display: inline;
-     color: #212529;
-     margin: 0px 9px;
-     position: relative;
- }
- .list-1:hover #a1 {
-     color: black;
- }
- .list-1 i{
-     color: black;
- }
- .list-1 a{
-     font-family: 'Nunito';
-     font-size: 16px;
-     font-weight: 700;
-     text-decoration: none;
-     color: black;
- }
- .contact{
-     margin-top: 20px;
-     padding: 8px 20px 6px 20px;
-     width: 170px;
-     background-color:  #00730C;
-     border-radius: 5px;
-     border: none;
- }
- .contact a{
-     text-decoration: none;
-     color: white;
-     font-family: var(--nunito-700);
-     font-weight: 700;
-     font-size: 18px;
- }
- .contact a:hover{
-     color: white;
- }
- .contact i{
-     font-size: 18px;
-     color: white;
- }
- .toggle{
-     float: right;
-     display: none;
- }
- /*--------------------------------------dropdown nav----------------------------------------*/
- .sub{
-     display: none;
-     position: absolute;
-     z-index: 10;
-     width: 145px;
-     top: 23px;
-     padding: 10px;
-     left: 0;
-     background-color: #0C4B35;
-     color: white;
- 
- }
- .sub li{
-     padding: 1px;
- }
- .sub li a{
-     color: white;
- }
- li:hover .sub{
-     display: block; 
- 
- }
- .list-2{
-     padding: 10px;
- }
- .list-2 li{
-     margin-top: 20px;
-     text-align: left;
- } 
- .list-2 li a{
-     font-family: 'Nunito';
-     font-size: 16px;
-     font-weight: 700;
- }
- .sub li:hover{
-     background-color: white;
- }
- .sub li:hover a{
-     color: black;
- }
- .toggle{
-     margin-top: -40px;
-     position: relative;
- }
-/*-------------------------------------------------------miniscreen navbar-------------------------------------------------------*/
-.hidden{
+}
+
+.items {
+    padding-right: 27px;
+}
+
+.list-1 {
+    display: inline;
+    color: #212529;
+    margin: 0px 9px;
+    position: relative;
+}
+
+.list-1:hover #a1 {
+    color: black;
+}
+
+.list-1 i {
+    color: black;
+}
+
+.list-1 a {
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    margin-top: 20px;
+    padding: 8px 20px 6px 20px;
+    width: 170px;
+    background-color: #00730C;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--nunito-700);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contact a:hover {
+    color: white;
+}
+
+.contact i {
+    font-size: 18px;
+    color: white;
+}
+
+.toggle {
+    float: right;
+}
+
+/*--------------------------------------dropdown nav----------------------------------------*/
+.sub {
     display: none;
+    position: absolute;
+    z-index: 10;
+    width: 145px;
+    top: 23px;
+    padding: 10px;
+    left: 0;
+    background-color: #0C4B35;
+    color: white;
+
 }
- .d-men ul{
-    padding-left: 0px !important;
- }
-.d-1{
+
+.sub li {
+    padding: 1px;
+}
+
+.sub li a {
+    color: white;
+}
+
+li:hover .sub {
+    display: block;
+
+}
+
+.list-2 {
+    padding: 10px;
+}
+
+.list-2 li {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.list-2 li a {
+    font-family: 'Nunito';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.sub li:hover {
+    background-color: white;
+}
+
+.sub li:hover a {
+    color: black;
+}
+
+.toggle {
+    margin-top: -40px;
+    position: relative;
+}
+
+/*-------------------------------------------mini screen navbar---------------------------------------------*/
+#d-men {
+    display: none;
+    background-color: white;
+}
+.hidden {
+    display: block !important;
+}
+
+.d-men ul {
+    /* padding-left: 18px; */
+    padding-left: 0px;
+}
+
+.d-1 {
     list-style: none;
 }
-.d-1 a{
+
+.d-1 a {
     text-decoration: none;
     color: black;
     font-family: 'Nunito';
@@ -193,46 +234,57 @@
     font-weight: 600;
     display: flex;
 }
-.d-1 a:hover{
+
+.d-1 a:hover {
     color: black;
 }
-.d-1 i{
+
+.d-1 i {
     margin-left: auto;
     margin-top: 2px;
 }
-.d-1:hover .d-1 i{
+
+.d-1:hover .d-1 i {
     color: white;
-} 
- /*-----------------------------------miniscreen dropdown nav--------------------------------------*/
-.mini-sub{
- display: none;
- border-radius: 2px;
 }
-.mini-list-2{
+
+/*-----------------------------------miniscreen dropdown nav--------------------------------------*/
+.mini-sub {
+    display: none;
+    border-radius: 2px;
+}
+
+.mini-list-2 {
     list-style: none;
     padding-left: 0px !important;
 }
-#a1{
+
+#a1 {
     width: 120px;
 }
-.d-1:hover .mini-sub{
+
+.d-1:hover .mini-sub {
     display: block;
     background-color: var(--dark-green);
     padding: 8px;
 }
-.d-1:hover .mini-sub a{
+
+.d-1:hover .mini-sub a {
     color: white;
 }
-.mini-list-2 li:hover{
+
+.mini-list-2 li:hover {
     background-color: black;
     padding-left: 20px;
     border-radius: 2px;
 }
-.mini-list-2 li:hover a{
+
+.mini-list-2 li:hover a {
     color: var(--dark-green);
 }
+
 /*--------------------------------------------------------------------------background-----------------------------------------------------*/
-.background{ 
+.background {
     background-image: url(../images/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +292,7 @@
     padding-bottom: 65px;
 }
 
-.text{
+.text {
     width: 70%;
     padding-top: 130px;
     margin-left: auto;
@@ -248,61 +300,72 @@
     padding-bottom: 65px;
     text-align: center;
 }
-.background  p1{
+
+.background p1 {
     font: nunito;
     font-weight: 700;
     font-size: 78px;
     color: white;
 }
-.background p2{
+
+.background p2 {
     font: nunito;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: white;
 }
-.background i{
+
+.background i {
     color: white;
 }
-.background p3{
+
+.background p3 {
     color: white;
-    Font:Nunito;
-    font-weight:700;
-    font-size:24px;
+    Font: Nunito;
+    font-weight: 700;
+    font-size: 24px;
 }
-.background p4{
+
+.background p4 {
     color: #00730C;
-    Font:Nunito;
-    font-weight:700;
-    font-size:24px;
+    Font: Nunito;
+    font-weight: 700;
+    font-size: 24px;
 }
+
 /* ---------------------------------------------------------services we provide----------------------------------------------------- */
-.services{
+.services {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
 }
-.stem{
+
+.stem {
     position: absolute;
     right: -20px;
     top: 30%;
     display: none;
 }
-.ser-text{
+
+.ser-text {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-.ser-heading{
+
+.ser-heading {
     font-family: var(--nunito-800);
     font-weight: 800;
     font-size: 45px;
 }
-.ser-heading span{
+
+.ser-heading span {
     color: var(--light-green);
 }
-.ser-text p{
+
+.ser-text p {
     font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 18px;
@@ -312,19 +375,22 @@
     justify-content: center;
     align-items: center;
 }
- /* ----------------------service cards----------------------------*/
-  .cards-column{
+
+/* ----------------------service cards----------------------------*/
+.cards-column {
     padding: 0px !important;
     justify-content: center;
-  }
-  .ser-box{
+}
+
+.ser-box {
     height: 406px;
     width: 100%;
     max-width: 330px;
     border-radius: 15px;
     box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
-  }
-  .ser-pic{
+}
+
+.ser-pic {
     height: 45%;
     width: 100%;
     max-width: 330px;
@@ -333,44 +399,55 @@
     background-position: center;
     border-radius: 15px;
 }
-.ser-details{
+
+.ser-details {
     padding: 20px 20px 0px 20px;
 }
-.serbox-heading{
+
+.serbox-heading {
     font-family: var(--nunito-700);
     font-size: 24px;
-    font-weight: 700;   
+    font-weight: 700;
 }
-.ser-details  p{
+
+.ser-details p {
     font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 14px;
     padding: 15px 25px 0px 25px;
     color: var(--dark-grey);
 }
-.ser-hid{
+
+.ser-hid {
     display: none;
 }
-.ser-box:hover .ser-hid{
+
+.ser-box:hover .ser-hid {
     display: block;
 }
-.ser-box:hover .ser-visible{
+
+.ser-box:hover .ser-visible {
     display: none;
 }
-.ser-box:hover{
+
+.ser-box:hover {
     background-color: var(--light-green);
 }
-.ser-box:hover .serbox-heading{
+
+.ser-box:hover .serbox-heading {
     color: white;
 }
-.ser-box:hover .ser-details p{
+
+.ser-box:hover .ser-details p {
     color: white;
 }
-.ser-box:hover .sercard-host i{
+
+.ser-box:hover .sercard-host i {
     color: white;
 }
+
 /*-----------------------------------------------------------Why us------------------------------------------------------------------*/
-.why-us{
+.why-us {
     background-color: var(--dark-green);
     background-image: url(../images/whybg.png);
     background-repeat: no-repeat;
@@ -379,14 +456,16 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.why-heading{
+
+.why-heading {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 45px;
     color: white;
 }
-.why-us p{
-    font-family:var(--nunito-400);
+
+.why-us p {
+    font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
@@ -394,16 +473,19 @@
     padding: 20px 0px 20px 0px;
     text-align: justify;
 }
-.why-us .picture{
+
+.why-us .picture {
     background-color: var(--grey);
 }
-.points{
+
+.points {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 24px;
     color: white;
 }
-.circle{
+
+.circle {
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -411,38 +493,45 @@
     text-align: center;
     line-height: 32px;
 }
-.circle i{
+
+.circle i {
     color: var(--dark-green);
 }
+
 /* ------------------------------------------------------------working process------------------------------------------------------ */
-.working{
+.working {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.wor-text{
+
+.wor-text {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
-.wor-heading{
+
+.wor-heading {
     font-family: var(--nunito-800);
     font-weight: 800;
     font-size: 45px;
 }
-.wor-heading span{
+
+.wor-heading span {
     color: var(--light-green);
 }
-.wor-text p{
+
+.wor-text p {
     font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     color: var(--dark-grey);
 }
+
 /* ----------------------working cards----------------------------*/
 
-.wor-box{
+.wor-box {
     height: 406px;
     width: 100%;
     max-width: 330px;
@@ -450,29 +539,34 @@
     box-shadow: 2px 11px 30px rgba(51, 51, 51, 0.08);
     position: relative;
 }
-.back-img{
+
+.back-img {
     position: absolute;
     right: 25px;
     top: 113px;
 }
-.worcard-host i{
+
+.worcard-host i {
     color: var(--grey);
 }
-.worcard-host{
+
+.worcard-host {
     width: 100%;
     height: 40%;
     padding: 45px 25px 25px 25px;
 }
-.wor-pic{
+
+.wor-pic {
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 15px;
     height: 80px;
     width: 80px;
-    float:left;
+    float: left;
 }
-.wor-count{
+
+.wor-count {
     height: 80px;
     width: 80px;
     display: flex;
@@ -481,46 +575,57 @@
     display: flex;
     justify-content: end;
 }
-.wor-details{
+
+.wor-details {
     padding: 20px 20px 0px 20px;
 }
-.wor-details p{
+
+.wor-details p {
     font-family: var(--poppis-400);
     font-size: 16px;
     line-height: 28px;
-    padding: 15px 0px 0px 0px ;
+    padding: 15px 0px 0px 0px;
     color: var(--dark-grey);
     text-align: justify;
 }
-.worbox-heading{
+
+.worbox-heading {
     font-family: var(--nunito-700);
     font-size: 24px;
     font-weight: 700;
-    color: black;    
+    color: black;
 }
-.wor-hid{
+
+.wor-hid {
     display: none;
 }
-.wor-box:hover .wor-hid{
+
+.wor-box:hover .wor-hid {
     display: block;
 }
-.wor-box:hover .wor-visible{
+
+.wor-box:hover .wor-visible {
     display: none;
 }
-.wor-box:hover{
+
+.wor-box:hover {
     background-color: var(--light-green);
 }
-.wor-box:hover .worbox-heading{
+
+.wor-box:hover .worbox-heading {
     color: white;
 }
-.wor-box:hover .wor-details p{
+
+.wor-box:hover .wor-details p {
     color: white;
 }
-.wor-box:hover .worcard-host i{
+
+.wor-box:hover .worcard-host i {
     color: white;
 }
+
 /*----------------cards-end--------------------*/
-.cta{
+.cta {
     width: 100%;
     border-radius: 10px;
     background-image: url(../images/g.avif);
@@ -531,20 +636,23 @@
     margin-top: 100px;
     padding: 10px;
 }
-.cta-row{
+
+.cta-row {
     padding-top: 5%;
 }
-.caption{
+
+.caption {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 33px;
     line-height: 45px;
     color: white;
 }
-.caps-btn{
+
+.caps-btn {
     padding: 8px 20px 6px 20px;
     width: 170px;
-    background-color:  white;
+    background-color: white;
     border-radius: 5px;
     border: none;
     font-family: var(--nunito-700);
@@ -554,28 +662,32 @@
     justify-content: center;
     align-items: center;
 }
-.caps-btn a{
+
+.caps-btn a {
     color: var(--light-green);
     text-decoration: none;
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 18px;
 }
-.caps-btn i{
+
+.caps-btn i {
     color: var(--light-green);
 }
 
 /* ------------------------------------------------------------staff------------------------------------------------------ */
-.staff-heading{
+.staff-heading {
     font-family: var(--nunito-800);
     font-weight: 800;
     font-size: 45px;
     color: black;
 }
-.staff-heading span{
+
+.staff-heading span {
     color: var(--light-green);
 }
-.staff-text{
+
+.staff-text {
     font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 18px;
@@ -584,7 +696,8 @@
     padding-top: 30px;
     text-align: justify;
 }
-.Dis-more{
+
+.Dis-more {
     padding: 13px 35px;
     background-color: #00730C;
     border-radius: 5px;
@@ -594,9 +707,10 @@
     font-size: 18px;
     color: white;
 }
+
 /*  =====================================================================*/
 
-.staff-card-host{
+.staff-card-host {
     height: 406px;
     width: 100%;
     max-width: 330px;
@@ -604,26 +718,31 @@
     overflow: hidden;
     border-radius: 15px;
 }
-  .cards-column{
+
+.cards-column {
     padding: 0px !important;
-  }
-  .staff-box{
+}
+
+.staff-box {
     height: 406px;
     width: 100%;
     max-width: 330px;
     border-radius: 15px;
     border: 1px solid silver;
-  }
-  .staff-box img{
+}
+
+.staff-box img {
     border-radius: 15px;
-  }
-.staff-shutter{
+}
+
+.staff-shutter {
     padding: 0px 20px 30px 20px;
     height: 406px;
     width: 100%;
     max-width: 330px;
     background-color: var(--light-green);
-    background-image:linear-gradient(top to bottom white,var(--dark-green)); ;
+    background-image: linear-gradient(top to bottom white, var(--dark-green));
+    ;
     border-radius: 15px;
     opacity: 0.95;
     align-items: center;
@@ -632,39 +751,46 @@
     bottom: -82%;
     left: 0;
     z-index: 100;
-    transition: all 1s;     
+    transition: all 1s;
 }
-.staff-shutter-heading{
-    font-family:var(--nunito-700);
+
+.staff-shutter-heading {
+    font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 24px;
     color: white;
     margin-top: 8px;
 }
-.staff-shutter p{
+
+.staff-shutter p {
     font-family: var(--nunito-400);
     font-weight: 400;
     font-size: 14px;
     color: white;
 }
-.staff-shutter .icons{
+
+.staff-shutter .icons {
     color: white;
 }
-.staff-card-host:hover .staff-shutter{
-   bottom: 0;
-   padding-top: 150px;
-   background-image: linear-gradient(#8fb48f,var(--light-green));
+
+.staff-card-host:hover .staff-shutter {
+    bottom: 0;
+    padding-top: 150px;
+    background-image: linear-gradient(#8fb48f, var(--light-green));
 }
-.staff-card-host:hover .box{
+
+.staff-card-host:hover .box {
     filter: blur(8px);
 }
+
 /*------------------------------------------------------------horizontal boxes------------------------------------------------------*/
-.boxes-host{
+.boxes-host {
     padding-top: 100px;
     padding-bottom: 100px;
     position: relative;
- }
- .horizon-box{
+}
+
+.horizon-box {
     height: 100px;
     width: 202px;
     margin-top: -50px;
@@ -675,9 +801,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
- }
- /*-------------------------overlay------------------------------- */
- .overlay{
+}
+
+/*-------------------------overlay------------------------------- */
+.overlay {
     background-color: var(--sea-green);
     border-radius: 10px;
     position: absolute;
@@ -685,171 +812,210 @@
     left: 0px;
     right: 0px;
     bottom: -50px;
- }
- .overlay-heading{
+}
+
+.overlay-heading {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 45px;
- }
- .overlay-heading span{
+}
+
+.overlay-heading span {
     color: var(--light-green);
- }
- .get{
+}
+
+.get {
     height: 50px;
     width: 175px;
-    background-color:  #00730C;
+    background-color: #00730C;
     border-radius: 5px;
     border: none;
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 18px;
 }
-.get:hover a{
+
+.get:hover a {
     color: white;
 }
+
 .get a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
- /*--------------------------------------------------------------------footer----------------------------------------------------------*/
- .footer{
+
+/*--------------------------------------------------------------------footer----------------------------------------------------------*/
+.footer {
     background-color: var(--dark-green);
     padding-top: 150px;
     padding-bottom: 30px;
- }
+}
+
 /*-----------------------footer content--------------------------------- */
-.footer-content{
+.footer-content {
     height: inherit;
     color: white;
 }
-.news-heading{
+
+.news-heading {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 80px;
 }
-.con-heading, .links-heading, .serv-heading{
+
+.con-heading,
+.links-heading,
+.serv-heading {
     font-family: var(--nunito-700);
     font-weight: 700;
     font-size: 24px;
     padding-bottom: 80px;
 }
-#frm-icons{
+
+#frm-icons {
     padding-left: 0;
     margin-top: 30px;
     list-style: none;
 }
-.footer p1{
+
+.footer p1 {
     font-family: var(--poppis-400);
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
 }
 
-.frm{
+.frm {
     border-bottom: 2px solid white;
- }
- .ft-circle{
+}
+
+.ft-circle {
     height: 40px;
     width: 40px;
     border-radius: 50%;
     border: 2px solid white;
     text-align: center;
     padding-bottom: 0px;
- }
- .ft-circle i{
+}
+
+.ft-circle i {
     line-height: 0.1px;
- }
- .icon-list:hover .ft-circle {
+}
+
+.icon-list:hover .ft-circle {
     background-color: white;
     cursor: pointer;
- } 
- .icon-list:hover .ft-circle i{
+}
+
+.icon-list:hover .ft-circle i {
     color: var(--dark-green);
- }
- input[type = "email"]{
+}
+
+input[type="email"] {
     background-color: transparent;
     width: 78%;
     height: 30px;
     margin-top: 30px;
     border: none;
     color: white;
- } 
- input[type="email"]:focus{
+}
+
+input[type="email"]:focus {
     outline: 0px;
- }
- .frm input[type = "email"]::placeholder{
+}
+
+.frm input[type="email"]::placeholder {
     color: white;
- }
- .frm a{
+}
+
+.frm a {
     color: white;
     text-decoration: none;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 14px;
- }
- .subscribe{
+}
+
+.subscribe {
     border: none;
     background-color: transparent;
- }
- .subscribe a{
+}
+
+.subscribe a {
     color: white;
-    font-family: 'Nunito', sans-serif; 
+    font-family: 'Nunito', sans-serif;
     font-size: 24px;
     font-weight: 700;
- }
- .left i{
+}
+
+.left i {
     margin-top: 20px;
- }
- .ft-host{
+}
+
+.ft-host {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
- }
- .left{
+}
+
+.left {
     padding-right: 80px !important;
- }
- .ft-links-content, .ft-serv-content{
+}
+
+.ft-links-content,
+.ft-serv-content {
     padding-left: 63px;
 }
- .material-start{
+
+.material-start {
     margin-top: 0px;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 18px;
 }
-.ft-con-list, .ft-links-list, .ft-serv-list{
+
+.ft-con-list,
+.ft-links-list,
+.ft-serv-list {
     list-style: none;
-    padding-left: 0px ;
+    padding-left: 0px;
 }
-.ft-con-list li{
+
+.ft-con-list li {
     margin-top: 20px;
 }
-.ft-links-list li{
+
+.ft-links-list li {
     margin-top: 20px;
 }
-.ft-links-list a:hover{
+
+.ft-links-list a:hover {
     color: white;
 }
-.ft-serv-list li{
+
+.ft-serv-list li {
     margin-top: 20px;
 }
- .links a{
+
+.links a {
     color: white;
     text-decoration: none;
- }
-.endbar{
+}
+
+.endbar {
     padding-top: 30px;
     padding-bottom: 28px;
     background-color: var(--dark-green);
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 18px;  
-    border-top: 1px solid white ;
+    font-size: 18px;
+    border-top: 1px solid white;
     color: white;
 }
-.terms .end-list{
+
+.terms .end-list {
     display: flex;
     justify-content: space-between;
     list-style: none;

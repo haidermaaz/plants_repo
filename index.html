@@ -32,7 +32,7 @@
   <title>Services Page</title>
 </head>
 
-<body>
+<body onload="load()">
   <!------------------------------------------------------------header--------------------------------------------------------------->
   <header>
     <div class="container-fluid  top-navbar ful-width">
@@ -152,8 +152,8 @@
       <div class="toggle d-lg-none d-block ">
         <i class="fa-solid fa-bars" onclick="drop()"></i>
       </div>
-       <!--------------------------------------------miniscreen navbar----------------------------------------->
-       <div class="d-men d-lg-none" id="d-men">
+      <!--------------------------------------------miniscreen navbar----------------------------------------->
+      <div class="container d-men d-lg-none" id="d-men">
         <ul class="pt-3 items">
           <li class="d-1">
             <a href="#" id="a1">Home <i class="fa-solid fa-angle-down fa-1x"></i></a>
@@ -188,8 +188,7 @@
               </ul>
             </div>
           </li>
-          <li class="d-1"><a href="#" id="a1">Company <i
-                class="fa-solid fa-angle-down fa-1x"></i></a>
+          <li class="d-1"><a href="#" id="a1">Company <i class="fa-solid fa-angle-down fa-1x"></i></a>
             <div class="mini-sub">
               <ul class="mini-list-2">
                 <li><a href="#">Company 1</a></li>
@@ -208,8 +207,7 @@
               </ul>
             </div>
           </li>
-          <li class="d-1"><a href="#" id="a1">Contact <i
-                class="fa-solid fa-angle-down fa-1x"></i></a>
+          <li class="d-1"><a href="#" id="a1">Contact <i class="fa-solid fa-angle-down fa-1x"></i></a>
             <div class="mini-sub">
               <ul class="mini-list-2">
                 <li><a href="#">Contact 3</a></li>
@@ -790,6 +788,7 @@
       </div>
     </div>
   </footer>
-  </body>
-  <script src="./assets/js/custom.js"></script>
-  </html>
+</body>
+<script src="./assets/js/custom.js"></script>
+
+</html>
